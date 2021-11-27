@@ -1,0 +1,194 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/fangliming/.emacs.d/" . "auto-save-list/")
+ ("/Users/fangliming/Documents/selflearning/notes/" . "talent plan/")
+ ("/Users/fangliming/Documents/selflearning/" . "notes/")
+ ("/Users/fangliming/Documents/" . "selflearning/")
+ ("/Users/fangliming/Downloads/" . "tinykv/")
+ ("/Users/fangliming/" . ".emacs.d/")
+ ("/Users/bytedance/Documents/selflearning/notes/" . "talent plan/")
+ ("/Users/bytedance/Documents/GitHub/workingset/HT_LEO/Leo/" . "git_learning/")
+ ("/Users/bytedance/Documents/GitHub/workingset/HT_LEO/" . "Leo/")
+ ("/Users/bytedance/Code/hsap/src/cache/storage/" . "zoned_store/")
+ ("/Users/bytedance/Code/hsap/src/cache/" . "storage/")
+ ("/Users/bytedance/Code/hsap/src/" . "cache/")
+ ("/Users/bytedance/Documents/selflearning/" . "notes/")
+ ("/Users/bytedance/.emacs.d/" . "elisp/")
+ ("/Users/bytedance/Documents/GitHub/collections/" . "citre/")
+ ("/Users/bytedance/Documents/GitHub/workingset/leveldb/" . ".tags/")
+ ("/Users/" . "bytedance/")
+ ("/" . "Users/")
+ ("/Users/bytedance/Documents/GitHub/workingset/" . "HT_LEO/")
+ ("/Users/bytedance/Documents/GitHub/" . "workingset/")
+ ("/Users/bytedance/Documents/" . "selflearning/")
+ ("/Users/bytedance/Code/playground/" . "citre_test/")
+ ("/Users/bytedance/Code/" . "hsap/")
+ ("/Users/bytedance/Code/hsap/" . "src/")
+ ("/Users/bytedance/.cache/" . "tags/")
+ ("/Users/bytedance/" . "Code/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/fangliming/.emacs.d/"
+ "/Users/fangliming/Documents/selflearning/notes/org mode/"
+ "/Users/fangliming/Documents/selflearning/"
+ "/Users/fangliming/Downloads/tinykv/"
+ "/Users/fangliming/Downloads/"
+ "/Users/bytedance/"
+ "/Users/bytedance/Documents/selflearning/notes/talent plan/"
+ "/Users/bytedance/Documents/selflearning/notes/org mode/"
+ "/Users/bytedance/Code/hsap/src/cache/storage/zoned_store/"
+ "/Users/bytedance/Documents/GitHub/workingset/HT_LEO/Leo/git_learning/"
+ "/Users/bytedance/Documents/selflearning/notes/"
+ "/Users/bytedance/Notes/"
+ "/Users/bytedance/.emacs.d/elisp/"
+ "/Users/bytedance/Documents/GitHub/workingset/HT_LEO/Leo/"
+ "/Users/bytedance/Documents/GitHub/workingset/HT_LEO/"
+ "/Users/bytedance/Code/hsap/"
+ "/Users/bytedance/.emacs.d/"
+ "/Users/bytedance/Code/hsap/src/cache/allocator/"
+ "/Users/bytedance/Code/hsap/dev-support/"
+ "/Users/bytedance/Documents/GitHub/workingset/leveldb/db/"
+ "/Users/bytedance/Documents/GitHub/collections/citre/"
+ "/Users/bytedance/Documents/GitHub/workingset/leveldb/.tags/"
+ "/Users/bytedance/Code/playground/completion/"
+ "/Users/bytedance/Code/playground/citre_test/"
+ "/Users/bytedance/.ssh/"
+ "/Users/bytedance/tmp/"
+ "/Users/bytedance/Code/playground/cmake_learning/"
+ "/Users/bytedance/Documents/GitHub/workingset/leveldb/"
+ "~/Code/playground/citre_test/"
+ "/Users/bytedance/.cache/tags/"
+ "/Users/bytedance/Code/hsap/src/cache/storage/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init_backup"
+ "init.el"
+ "today.org"
+ ".DS_Store"
+ ".gitignore"
+ "main1.cpp"
+ "main.cpp"
+ ".zshrc"
+ "plan.org"
+ "magit.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/fangliming/Documents/selflearning/notes/talent plan/" (24985 62492 0 0) "#badger.org#" "plan.org" ".#badger.org" "../" "./")
+
+ ("/Users/fangliming/Documents/selflearning/notes/" (24992 53751 0 0) "Git/" "talent plan/" "程序员自我修养/" "storage engine/" "drawio/" "org mode/" "计算机网络/" "面经/" "turtle strategy/" "数据库/" "mac config.md" "算法/" "操作系统/" "正则表达式.md" ".DS_Store" "mit6824/" "cmdline tool.md" "programming language/" "../" "./")
+
+ ("/Users/fangliming/Documents/selflearning/notes/org mode/" (24992 53751 0 0) ".#today.org" "magit.org" "Emacs Org-mode.md" "#today.org#" "go.org" "cppcon.org" "cmake.org" "weekly summary.org" "cppcon/" "emacs_cpp.org" "today.org" "intern_code_descipline.org" "../" "./")
+
+ ("/Users/fangliming/.emacs.d/" (24992 52816 931317 795000) "pde/" "init_backup" "elpa/" "recentf" "#init_backup#" "elisp/" "init.el" "auto-save-list/" "custom.el" "transient/" "ido.last~" "eshell/" "ido.last" "../" "./")
+
+ ("/Users/fangliming/.emacs.d/auto-save-list/" (24992 47740 430597 994000) ".saves-30867-C02FR1C0MD6V~" ".saves-8874-fanglimingdeMacBook-Pro.local~" ".saves-529-C02FR1C0MD6V~" "../" "./")
+
+ ("/Users/fangliming/Documents/" (24992 52611 0 0) "个人信息/" ".UTSystemConfig/" ".beacon/" "Job/" "GitHub/" "selflearning/" ".localized" "本科/" "Iterm2Theme/" "小组学习/" ".DS_Store" "硕士/" "杂/" ".rqd/" "../" "./")
+
+ ("/Users/fangliming/Documents/selflearning/" (24992 52611 0 0) "material/" "book/" "notes/" "code/" ".DS_Store" "../" "./")
+
+ ("/Users/fangliming/Documents/GitHub/" (24992 47657 0 0) "collections/" ".tmp.drivedownload/" "workingset/" ".DS_Store" "../" "./")
+
+ ("/Users/fangliming/" (24991 45425 236883 708000) ".zsh_sessions/" ".viminfo" ".gitconfig" "Downloads/" ".oh-my-zsh/" "Documents/" ".Trash/" "opt/" "Dropbox/" ".profile" "Movies/" ".ssh/" ".rustup/" ".zshenv" ".dropbox/" "Public/" ".dlv/" ".cargo/" ".zcompdump-方里明的MacBook Pro-5.8" ".emacs.d/" "Library/" "Desktop/" ".zsh_history" ".zprofile" "Pictures/" ".zshrc" ".CFUserTextEncoding" ".DS_Store" "go/" "Music/" "../" "./")
+
+ ("/Users/fangliming/Downloads/tinykv/" (24990 21887 96024 739000) ".git/" "doc/" "log/" "raft/" ".github/" ".gitignore" "README.md" "go.sum" "scheduler/" "Makefile" "proto/" "kv/" ".DS_Store" "go.mod" "../" "./")
+
+ ("/Users/fangliming/Downloads/" (24990 21735 699005 844000) ".idea/" "Golang101-v1.17.b.pdf-KaiTi.pdf" "main.cpp" "DropboxInstaller.dmg" "tinykv/" "归档/" "GitHub/" "a.out" "main1.cpp" "Mail/" ".localized" "tinykv-course_zip/" ".DS_Store" "../" "./")
+
+ ("/Users/bytedance/" (24984 35009 359185 739000) ".cmake/" ".zsh_sessions/" ".viminfo" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".swiftpm/" ".vscode/" "Documents/" ".Trash/" ".profile" "Movies/" ".ssh/" ".rustup/" ".zshenv" "Notes/" "Public/" ".gitignore_global" ".cargo/" ".emacs.d/" ".oracle_jre_usage/" ".zcompdump-C02FR1C0MD6V-5.8" "Library/" "Desktop/" ".zsh_history" ".cpan/" "Code/" "Pictures/" ".local/" ".zshrc" ".cpanm/" ".sogouinput/" ".wget-hsts" ".CFUserTextEncoding" ".DS_Store" "go/" "perl5/" "temp/" ".wns/" ".bytertc/" "Music/" ".python_history-44725.tmp" "../" "./")
+
+ ("/Users/bytedance/Documents/selflearning/notes/talent plan/" (24983 30021 0 0) "plan.org" ".#plan.org" "#plan.org#" "../" "./")
+
+ ("/Users/bytedance/Documents/selflearning/notes/" (24983 27058 0 0) "Git/" "talent plan/" "程序员自我修养/" "storage engine/" "drawio/" "org mode/" "计算机网络/" "面经/" "turtle strategy/" "数据库/" "mac config.md" "算法/" "操作系统/" "正则表达式.md" ".DS_Store" "mit6824/" "cmdline tool.md" "programming language/" "../" "./")
+
+ ("/Users/bytedance/Documents/selflearning/notes/org mode/" (24983 27058 0 0) ".#today.org" "magit.org" "Emacs Org-mode.md" "#today.org#" "today.org" "intern_code_descipline.org" "../" "./")
+
+ ("/Users/bytedance/.cache/tags/" (24981 49527 496855 914000) "!Users!bytedance!Code!hsap!.tags" "../" "./")
+
+ ("/Users/bytedance/.emacs.d/" (24979 49765 577210 372000) "pde/" "elpa/" "recentf" "elisp/" "init.el" "auto-save-list/" "custom.el" "transient/" "ido.last~" "eshell/" ".DS_Store" "ido.last" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/workingset/HT_LEO/" (24979 6989 0 0) ".git/" "HT/" "Leo/" ".gitignore" "README.md" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/workingset/HT_LEO/Leo/" (24979 6949 0 0) "TODO.md" "exercise.md" "git_learning/" ".DS_Store" "storage.md" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/workingset/HT_LEO/Leo/git_learning/" (24979 6949 0 0) "git_basic.md" "../" "./")
+
+ ("/Users/bytedance/Documents/" (24979 7355 0 0) "个人信息/" ".UTSystemConfig/" ".beacon/" "Job/" "GitHub/" "selflearning/" ".localized" "本科/" "小组学习/" ".DS_Store" "硕士/" "杂/" ".rqd/" "../" "./")
+
+ ("/Users/bytedance/Documents/selflearning/" (24979 7355 0 0) "material/" "book/" "notes/" "code/" ".DS_Store" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/workingset/leveldb/" (24977 6079 0 0) "helpers/" ".tags/" "issues/" ".git/" "port/" "build/" "BROWSE" "CMakeCache.txt" "doc/" "db/" ".github/" ".clang-format" "benchmarks/" "CONTRIBUTING.md" "table/" ".gitignore" "NEWS" "third_party/" "README.md" "TODO" ".gitmodules" "include/" "CMakeFiles/" "AUTHORS" "util/" "cmake/" "LICENSE" "CMakeLists.txt" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/workingset/leveldb/db/" (24977 6079 0 0) "dbformat_test.cc" "c_test.c" "memtable.cc" "version_edit_test.cc" "leveldbutil.cc" "snapshot.h" "filename.h" "write_batch_test.cc" "repair.cc" "db_iter.cc" "#dbformat.h#" "write_batch_internal.h" "autocompact_test.cc" "#skiplist_test.cc#" "log_reader.h" "dumpfile.cc" "#c.cc#" "version_set.cc" "builder.h" "db_test.cc" "version_set_test.cc" "log_test.cc" "version_set.h" "version_edit.h" "memtable.h" "filename_test.cc" "dbformat.cc" "corruption_test.cc" "db_iter.h" "skiplist_test.cc" "#autocompact_test.cc#" "db_impl.h" "version_edit.cc" "log_writer.h" "builder.cc" "recovery_test.cc" "c.cc" "#skiplist.h#" "write_batch.cc" "log_reader.cc" "table_cache.cc" "dbformat.h" "skiplist.h" "fault_injection_test.cc" "filename.cc" "db_impl.cc" "table_cache.h" "log_writer.cc" "log_format.h" "../" "./")
+
+ ("/Users/bytedance/Code/hsap/src/cache/storage/zoned_store/" (24977 65382 974642 811000) "index.cpp" "store.h" "store.cpp" "gc.cpp" "device_access.cpp" "zoned_store.cpp" "codec.h" "buffer_manager.h" "gc.h" "zoned_store.h" "zone_manager.h" "buffer_manager.cpp" "index.h" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/" (24978 29869 0 0) "collections/" ".tmp.drivedownload/" "workingset/" ".DS_Store" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/workingset/" (24978 29869 0 0) "smhasher/" "CMU15445/" "HT_LEO/" "tinysql/" "skipList/" "tinykv1/" "rcore_selflearning/" "redis/" "rustsbi/" "rustsbi-qemu/" ".DS_Store" "muduo/" "pingcap/" "leveldb/" "rocksdb/" "rCore-Tutorial-v3/" "../" "./")
+
+ ("/Users/bytedance/.emacs.d/elisp/" (24979 2762 959410 452000) "base.el" "base.el~" "splash.el" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/collections/" (24976 32526 0 0) "cppzmq/" "CMU_15445/" "shadowsocks/" "libco/" "folly/" "cquery/" "WorkingTime/" "cs144.github.io/" "ccia_code_samples/" "CMU15213/" "protobuf-go/" "citre/" "CS144/" "learnOS/" "xv6-labs-2020/" "CMU_15445_ans/" "zookeeper/" "grpc-go/" "stl/" "bustub-master/" "resume/" "thrift-0.11.0/" "jemalloc/" "redis/" "tcmalloc/" "zguide/" ".DS_Store" "muduo/" "MIT6S081/" "websocketpp/" "cmu15-445_ans2/" "4.4BSD-Lite/" "rocksdb/" "maximum-awesome-master/" "../" "./")
+
+ ("/Users/bytedance/Code/hsap/src/cache/allocator/" (24977 55955 394596 368000) "base.h" "pmem.cpp" "pmem.h" "allocator.h" "base.cpp" "dram.h" "dram.cpp" "simple.h" "../" "./")
+
+ ("/Users/bytedance/Code/hsap/dev-support/" (24977 55955 373857 212000) "clang-check.sh" "../" "./")
+
+ ("/Users/bytedance/Code/hsap/" (24977 64212 825754 213000) "src/" "conf/" "dev-support/" ".git/" ".clang-format" "scripts/" ".gitignore" "third_party/" "README.md" "integration/" "systemd/" "Makefile" "clang-format" "cmake/" "CMakeLists.txt" ".codebase/" "benchmark/" "../" "./")
+
+ ("/Users/bytedance/Code/hsap/src/cache/storage/" (24977 55955 404755 243000) "pmem.cpp" "gc.cc" "zoned_store/" "multi_ssd_terarkdb.cpp" "pmem.h" "storage.h" "multi_ssd.cpp" "ssd_terarkdb.h" "storage_engine.h" "multi_ssd.h" "storage.cpp" "gc.h" "dram.h" "simple.cpp" "ssd_terarkdb.cpp" "dram.cpp" "simple.h" "multi_ssd_terarkdb.h" "ssd.h" "../" "./")
+
+ ("/Users/bytedance/Code/hsap/src/cache/" (24977 55955 412594 70000) "buffer/" "unified_cache.h" "policy/" "simple_slice_cache.h" "cache_instance.cpp" "allocator/" "loading_cache/" "map/" "common/" "storage/" "cache_factory.cc" "cache_factory.h" "loading_slice_cache.h" "single_flight.h" "cache_item.cpp" "cache.h" "simple_lru_cache.h" "loading_slice_cache.cc" "unified_cache.cpp" "cache_item.h" "test/" "CMakeLists.txt" "tools/" "simple_slice_cache.cc" "cache_instance.h" "../" "./")
+
+ ("/Users/bytedance/Code/hsap/src/" (24977 55955 905934 856000) "services/" "base/" "metadata/" "fs/" "rpc/" "examples/" "gensrc/" "http/" "thrift/" "java/" "fe/" "cloudstore/" "ds/" "proto/" "cache/" "CMakeLists.txt" "tools/" "../" "./")
+
+ ("/Users/bytedance/Code/" (24977 55927 488349 44000) "folly/" "hsap/" "ctag-cache/" "zenfs/" "jemalloc/" "playground/" ".DS_Store" "../" "./")
+
+ ("/Users/bytedance/tmp/" (24975 47975 361874 674000) "f1" "#f1#" "f2" "../" "./")
+
+ ("/Users/bytedance/Code/playground/completion/" (24975 47975 360026 889000) "#tmp.txt#" "tmp.txt" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/workingset/leveldb/.tags/" (24975 52129 435992 192000) ".!.tags" "../" "./")
+
+ ("/Users/bytedance/Documents/GitHub/collections/citre/" (24976 32729 0 0) "#citre-basic-tools.el#" "citre-lang-c.el" "citre-basic-tools.el" ".git/" "citre.el" "citre-common.el" "citre-peek.el" "citre-tag.el" ".github/" "scripts/" ".gitignore" "citre-ctags.el" "img/" "README.md" "docs/" "citre-config.el" "citre-core.el" "citre-global.el" "tests/" "Makefile" "citre-util.el" "CHANGELOG.md" "citre-lang-verilog.el" "LICENSE" "citre-core-tables.el" "citre-lang-fileref.el" "../" "./")
+
+ ("/Users/bytedance/Downloads/" (24973 8172 820324 514000) "混合粒子群 -无约束.rar" "riscv-gnu-toolchain.zip" "DPSO/" "房本-西直门.pdf" "github_repo/" "io_uring.pdf" "BingWallpaper.jpg" "刘启灏+华中科技大学+硕士+13125138283.pdf" "sogou_mac_606b.app/" "钟志港-北邮.pdf" "归档/" "20211014-141347.jpeg" "单机引擎未来发展讨论-LavaKV.mp4" "混合粒子群 -无约束/" "resume.pdf" "jugg.jpg" "cscope-15.9/" "mail/" "UNIX Network Programming(Volume1,3rd).pdf" ".localized" "pavlo-newsql-sigmodrec2016.pdf" "riscv-gnu-toolchain/" "查看合同-泊寓935.pdf" "wp3070125.jpeg" ".DS_Store" "Telegram Desktop/" "clangd_13.0.0/" "TeXTheProgram.pdf" "cscope-15.9.tar.gz" "../" "./")
+
+ ("/Users/bytedance/Code/playground/" (24975 45314 936494 702000) "cmake_learning/" "citre_test/" "completion/" "../" "./")
+
+ ("~/Code/playground/citre_test/" (24975 18538 772044 856000) "main.cpp" "headerone.h" "TAGS" "#headerone.h#" "headertwo.h" "../" "./")
+
+ ("/Users/bytedance/Code/playground/citre_test/" (24975 18538 772044 856000) "main.cpp" "headerone.h" "TAGS" "#headerone.h#" "headertwo.h" "../" "./")
+
+ ("/Applications/" (24973 8108 341588 314000) "网易有道词典.app/" "QQ.app/" "Discord.app/" "Slack.app/" "Microsoft Teams.app/" "NeteaseMusic.app/" "CLion.app/" "Microsoft PowerPoint.app/" "Emacs.app/" "Typora.app/" "Things3.app/" "Microsoft OneNote.app/" "Momentum.app/" "MATLAB_R2021b.app/" "Bear.app/" "Managed Software Center.app/" "Seal.app/" "Microsoft Outlook.app/" "MotionPro.app/" "Symantec Solutions/" "WeChat.app/" "Utilities/" "Microsoft Excel.app/" "Kindle.app/" "Safari.app/" "Magnet.app/" "QQMusic.app/" "Microsoft Word.app/" "同花顺.app/" "OneDrive.app/" "Xcode.app/" "Telegram.app/" ".localized" "xzip.app/" "Google Chrome.app/" ".DS_Store" "Lark.app/" "BBEdit.app/" "Visual Studio Code.app/" "../" "./")
+
+ ("/Applications/Emacs.app/" (24671 38456 0 0) "Contents/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/" (24671 38456 0 0) "PkgInfo" "Info.plist" "Resources/" "MacOS/" "_CodeSignature/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/Resources/" (24671 38456 0 0) "Emacs.icns" "Credits.html" "site-lisp/" "info/" "etc/" "include/" "document.icns" "lisp/" "English.lproj/" "man/" "../" "./")
+
+ ("/Users/bytedance/Code/playground/cmake_learning/" (24973 58424 961340 68000) "main.cpp" "hello-world/" "myStaticLib.cpp" "CMakeLists.txt" "../" "./")
+
+ ("/Users/bytedance/.ssh/" (24933 17341 564744 135000) "known_hosts" "id_ed_bytedance" "id_ed_bytedance.pub" "config" "id_ed25519.pub" "id_ed25519" "../" "./")
+
+ ("/Users/bytedance/Notes/" (24973 56631 382723 784000) "ssd_cache.org" "#ssd_cache.org#" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/Resources/info/" (24671 38456 0 0) "ido.info.gz" "htmlfontify.info.gz" "emacs-gnutls.info.gz" "ede.info.gz" "mairix-el.info.gz" "bovine.info.gz" "erc.info.gz" "ccmode.info.gz" "eintr.info.gz" "ediff.info.gz" "gnus.info.gz" "rcirc.info.gz" "cl.info.gz" "smtpmail.info.gz" "tramp.info.gz" "vip.info.gz" "pcl-cvs.info.gz" "ert.info.gz" "forms.info.gz" "remember.info.gz" "ebrowse.info.gz" "newsticker.info.gz" "dir" "mh-e.info.gz" "elisp.info.gz" "semantic.info.gz" "url.info.gz" "sc.info.gz" "srecode.info.gz" "ses.info.gz" "dired-x.info.gz" "dbus.info.gz" "woman.info.gz" "nxml-mode.info.gz" "org.info.gz" "info.info.gz" "emacs.info.gz" "calc.info.gz" "eieio.info.gz" "todo-mode.info.gz" "speedbar.info.gz" "eshell.info.gz" "eudc.info.gz" "octave-mode.info.gz" "wisent.info.gz" "auth.info.gz" "vhdl-mode.info.gz" "idlwave.info.gz" "widget.info.gz" "efaq.info.gz" "sieve.info.gz" "eww.info.gz" "pgg.info.gz" "emacs-mime.info.gz" "flymake.info.gz" "viper.info.gz" "edt.info.gz" "sasl.info.gz" "autotype.info.gz" "epa.info.gz" "message.info.gz" "reftex.info.gz" "../" "./")
+
+ ("/Users/" (24900 24474 762145 592000) "bytedance/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/bytedance/.cache/" (24972 54356 771886 317000) "tags/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

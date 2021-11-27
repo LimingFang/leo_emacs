@@ -1,0 +1,74 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/fangliming/.emacs.d/lisp/init-lsp.el" . 8035)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft/storage.go" . 1887)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft/raft_test.go" . 2139)
+ ("/Users/fangliming/.emacs.d/persp-confs/persp-auto-save" . 1249)
+ ("/Users/fangliming/.emacs.d/custom.el" . 1017)
+ ("/Users/fangliming/Documents/selflearning/notes/org mode/emacs_cpp.org" . 953)
+ ("/Users/fangliming/Documents/selflearning/notes/org mode/emacs_dev_config.org" . 440)
+ ("/Users/fangliming/Documents/selflearning/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/notes"))
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft/raft.go" . 5456)
+ ("/Users/fangliming/.emacs.d/lisp/init-go.el" . 1064)
+ ("/Users/fangliming/.emacs.d/init.el" . 4444)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/proto/proto/eraftpb.proto" . 2988)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/raftstore/node.go" . 5789)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft/util.go" . 624)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft/rawnode.go" . 692)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft/doc.go" . 1192)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/go.sum" . 2596)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/proto/tools.json" . 338)
+ ("/Users/fangliming/.emacs.d/elpa/neotree-20200324.1946/neotree.el" . 20982)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/scheduler/server/config/config.go" . 8957)
+ ("/Users/fangliming/Documents/selflearning/code/mit6824/6.824/src/raft/raft.go" . 819)
+ ("/Users/fangliming/Documents/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning"))
+ ("/Users/fangliming/Documents/selflearning/notes/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/notes/org mode"))
+ ("/Users/fangliming/Documents/selflearning/notes/org mode/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/notes/org mode/cppcon.org"))
+ ("/Users/fangliming/Documents/selflearning/notes/org mode/today.org" . 40)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/"
+  (dired-filename . "/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft"))
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft/"
+  (dired-filename . "/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/raft/doc.go"))
+ ("/Users/fangliming/.emacs.d/lisp/init-basic.el" . 3682)
+ ("/Users/fangliming/.zshrc" . 200)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/storage/storage.go" . 622)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/storage/standalone_storage/"
+  (dired-filename . "/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/storage/standalone_storage/standalone_storage.go"))
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/storage/standalone_storage/standalone_storage.go" . 821)
+ ("/Users/fangliming/go/pkg/mod/github.com/!connor1996/badger@v1.5.1-0.20210202034640-5ff470f827f8/db.go" . 926)
+ ("/Users/fangliming/.emacs.d/.cache/treemacs-persist" . 337)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/main.go" . 1814)
+ ("/Users/fangliming/.emacs.d/lisp/"
+  (dired-filename . "/Users/fangliming/.emacs.d/lisp/init-basic.el"))
+ ("/Users/fangliming/.zshenv" . 22)
+ ("/Users/fangliming/.emacs.d/"
+  (dired-filename . "/Users/fangliming/.emacs.d/init.el"))
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/storage/"
+  (dired-filename . "/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/storage/storage.go"))
+ ("/Users/fangliming/.emacs.d/lisp/init-shell.el" . 3911)
+ ("/Users/fangliming/.emacs.d/lisp/init-prog.el" . 1454)
+ ("/Users/fangliming/Documents/selflearning/notes/talent plan/lab2.org" . 136)
+ ("/Users/fangliming/Documents/GitHub/workingset/"
+  (dired-filename . "/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo"))
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/go.mod" . 1497)
+ ("/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/"
+  (dired-filename . "/Users/fangliming/Documents/GitHub/workingset/TinyKV_Leo/kv/main.go"))
+ ("/Users/fangliming/Documents/GitHub/"
+  (dired-filename . "/Users/fangliming/Documents/GitHub/workingset"))
+ ("/Users/fangliming/Documents/selflearning/notes/talent plan/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/notes/talent plan/lab2.org"))
+ ("/Users/fangliming/Documents/selflearning/code/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/code/playground"))
+ ("/Users/fangliming/Documents/selflearning/code/playground/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/code/playground/cpp"))
+ ("/Users/fangliming/Documents/selflearning/code/playground/cpp/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/code/playground/cpp/grammer"))
+ ("/Users/fangliming/Documents/selflearning/code/playground/cpp/grammer/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/code/playground/cpp/grammer/main.cpp"))
+ ("/Users/fangliming/Documents/selflearning/code/playground/cpp/grammer/main.cpp" . 443)
+ ("/Users/fangliming/.emacs.d/elpa/neotree-20200324.1946/neotree-autoloads.el" . 1327)
+ ("/Users/fangliming/Documents/selflearning/code/playground/cpp/grammar/"
+  (dired-filename . "/Users/fangliming/Documents/selflearning/code/playground/cpp/grammar/main.c")))

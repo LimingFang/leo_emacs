@@ -1,0 +1,2 @@
+;;; Generated package description from goto-char-preview.el  -*- no-byte-compile: t -*-
+(define-package "goto-char-preview" "20210323.332" "Preview character when executing `goto-char` command" '((emacs "24.3")) :commit "51a66148c31f0ee7fdcc7aa554ae42e9c4db876c" :authors '(("Shen, Jen-Chieh" . "jcs090218@gmail.com")) :maintainer '("Shen, Jen-Chieh" . "jcs090218@gmail.com") :url "https://github.com/jcs-elpa/goto-char-preview")
