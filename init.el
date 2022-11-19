@@ -45,13 +45,18 @@
 (global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c t") 'ansi-term)
 
-;; (use-package posframe
-;;   :custom
-;;   (blink-search-enable-posframe t)
-;;   )
-
-(add-to-list 'load-path "/Users/fangliming/Dropbox/GithubRepo/blink-search")
-(require 'blink-search)
+(use-package blink-search
+  :load-path "/Users/fangliming/Documents/GithubRepo/blink-search"
+  :init
+   (setq blink-search-search-backends '("Buffer List"
+                                       "Common Directory"
+                                       "Find File"
+                                       "Recent File"
+                                       "IMenu"
+                                       "Elisp Symbol"))
+  :bind (("C-c s"  . 'blink-search))
+  :custom
+  )
 
 (require 'hackernews)
 
@@ -85,6 +90,17 @@
 	 ("C-c C-<" . mc/mark-all-like-this))
   )
 
+(use-package yasnippet
+  :config
+  (yas-global-mode 1)
+  )
+
+(use-package lsp-bridge
+  :load-path "/Users/fangliming/Documents/GithubRepo/lsp-bridge"
+  :hook
+  ((rust-mode . lsp-bridge-mode))
+  )
+
 (use-package lsp-mode
   :commands (lsp lsp-deferred)
   :bind-keymap
@@ -113,19 +129,11 @@
     )
   (setq lsp-keymap-prefix "C-c l")
   :custom
-  (lsp-rust-analyzer-server-display-inlay-hints t)
-  (lsp-rust-analyzer-display-lifetime-elision-hints-enable "skip_trivial")
-  (lsp-rust-analyzer-display-chaining-hints t)
-  (lsp-rust-analyzer-display-lifetime-elision-hints-use-parameter-names nil)
-  (lsp-rust-analyzer-display-closure-return-type-hints t)
-  (lsp-rust-analyzer-display-parameter-hints nil)
-  (lsp-rust-analyzer-display-reborrow-hints nil)
-;;  (lsp-enable-links nil)
+  ;;  (lsp-enable-links nil)
   (lsp-diagnostics--flycheck-enabled t)
   (lsp-enable-snippet nil)
   (lsp-clients-clangd-args
-   '("-j=5" "--background-index" "--header-insertion-decorators=0" "--compile-commands-dir=build"))
-  ;;(lsp-clients-clangd-library-directories '("/usr/local/lib/"))
+   '("-j=4" "--background-index" "--header-insertion-decorators=0" "--compile-commands-dir=build"))
   (company-idle-delay 0.1)
   (gc-cons-threshold 300000000)
   (read-process-output-max 3145728)
@@ -135,31 +143,29 @@
   :hook
   ((c-mode . lsp-deferred)
    (c++-mode . lsp-deferred)
-   (rust-mode . lsp-deferred)
    (before-save . lsp-format-buffer)
    ))
 
 
-(use-package dap-mode
-  :ensure t
-  :after lsp-mode
-  :bind
-  ("C-c d h" . dap-hydra)
-  ("C-c d r" . dap-ui-repl)
-  ("C-c d d" . dap-debug)
-  :config
-  ;;; use codelldb for c++,rust
-  (setq dap-codelldb-download-url "https://github.com/vadimcn/vscode-lldb/releases/download/v1.7.0/codelldb-aarch64-darwin.vsix")
-  (require 'dap-codelldb)
-  (dap-codelldb-setup)
-  :custom
-  (lsp-enable-dap-auto-configure nil)
-  :hook
-  ((c-mode . dap-mode)
-   (c++-mode . dap-mode)
-   )
-  )
-
+;; (use-package dap-mode
+;;   :ensure t
+;;   :after lsp-mode
+;;   :bind
+;;   ("C-c d h" . dap-hydra)
+;;   ("C-c d r" . dap-ui-repl)
+;;   ("C-c d d" . dap-debug)
+;;   :config
+;;   ;;; use codelldb for c++,rust
+;;   (setq dap-codelldb-download-url "https://github.com/vadimcn/vscode-lldb/releases/download/v1.7.0/codelldb-aarch64-darwin.vsix")
+;;   (require 'dap-codelldb)
+;;   (dap-codelldb-setup)
+;;   :custom
+;;   (lsp-enable-dap-auto-configure nil)
+;;   :hook
+;;   ((c-mode . dap-mode)
+;;    (c++-mode . dap-mode)
+;;    )
+;;   )
 
 (use-package projectile
   :ensure t
@@ -170,14 +176,12 @@
   (projectile-completion-system 'ivy)
   )
 
-
 (use-package flycheck
   :ensure t
   ;; turn on flycheck mode when editing c/c++
   :hook ((c++-mode . flycheck-mode)
 	 (c-mode . flycheck-mode))
   )
-
 
 (use-package ivy
   :ensure t
@@ -214,7 +218,6 @@
 ;; action when start up
 (org-agenda-list)
 (delete-other-windows)
-
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
