@@ -45,20 +45,9 @@
 (global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c t") 'ansi-term)
 
-(use-package blink-search
-  :load-path "/Users/fangliming/Documents/GithubRepo/blink-search"
-  :init
-   (setq blink-search-search-backends '("Buffer List"
-                                       "Common Directory"
-                                       "Find File"
-                                       "Recent File"
-                                       "IMenu"
-                                       "Elisp Symbol"))
-  :bind (("C-c s"  . 'blink-search))
-  :custom
+(use-package hackernews
+  :ensure t
   )
-
-(require 'hackernews)
 
 (use-package winum
   :ensure t
@@ -74,11 +63,6 @@
   (winum-mode)
   )
 
-(use-package ox-hugo
-  :ensure t   ;Auto-install the package from Melpa
-  :pin melpa  
-  :after ox)
-
 (use-package multiple-cursors
   ;; QuickStart
   ;; First <C-@> mark a line, then use <C->> or <C-<> add/delete lines region
@@ -88,17 +72,6 @@
 	 ("C->" . mc/mark-next-like-this)
 	 ("C-<" . mc/mark-previous-like-this)
 	 ("C-c C-<" . mc/mark-all-like-this))
-  )
-
-(use-package yasnippet
-  :config
-  (yas-global-mode 1)
-  )
-
-(use-package lsp-bridge
-  :load-path "/Users/fangliming/Documents/GithubRepo/lsp-bridge"
-  :hook
-  ((rust-mode . lsp-bridge-mode))
   )
 
 (use-package lsp-mode
@@ -146,27 +119,6 @@
    (before-save . lsp-format-buffer)
    ))
 
-
-;; (use-package dap-mode
-;;   :ensure t
-;;   :after lsp-mode
-;;   :bind
-;;   ("C-c d h" . dap-hydra)
-;;   ("C-c d r" . dap-ui-repl)
-;;   ("C-c d d" . dap-debug)
-;;   :config
-;;   ;;; use codelldb for c++,rust
-;;   (setq dap-codelldb-download-url "https://github.com/vadimcn/vscode-lldb/releases/download/v1.7.0/codelldb-aarch64-darwin.vsix")
-;;   (require 'dap-codelldb)
-;;   (dap-codelldb-setup)
-;;   :custom
-;;   (lsp-enable-dap-auto-configure nil)
-;;   :hook
-;;   ((c-mode . dap-mode)
-;;    (c++-mode . dap-mode)
-;;    )
-;;   )
-
 (use-package projectile
   :ensure t
   :config
@@ -180,7 +132,8 @@
   :ensure t
   ;; turn on flycheck mode when editing c/c++
   :hook ((c++-mode . flycheck-mode)
-	 (c-mode . flycheck-mode))
+	 (c-mode . flycheck-mode)
+	 (cperl-mode-hook . flycheck-mode)
   )
 
 (use-package ivy
