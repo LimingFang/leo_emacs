@@ -5,11 +5,6 @@
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 
-(defun open-main-org ()
-  "Open main org file"
-  (interactive)
-  (find-file "~/Dropbox/org/readme.org"))
-
 (defun buffer-face-variable()
   "Sets jetbrain-mono font in current buffer"
   (interactive)
@@ -17,33 +12,37 @@
   (buffer-face-mode)
   )
 
-(setq inferior-lisp-program "/opt/homebrew/bin/sbcl")
 (setq make-backup-files nil)
 (setq auto-save-default nil)
-(setq org-agenda-log-mode-items '(clock closed))
-(setq org-image-actual-width nil)
-(setq org-refile-allow-creating-parent-nodes t)
-(setq org-refile-targets '((nil :maxlevel . 9)
-			   (org-agenda-files . (:maxlevel . 6))))
-(setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
-(setq org-refile-use-outline-path 'file)   
-(setq org-default-notes-file "~/Dropbox/org/work_life.org")
-(setq org-export-backends '(ascii html icalendar latex md odt))
-(setq org-display-remote-inline-images 'download)
 (setq inhibit-splash-screen t)
 
 (add-hook 'rust-mode-hook 'buffer-face-variable)
 (add-hook 'c++-mode-hook 'buffer-face-variable)
-(add-hook 'org-mode-hook #'valign-mode)
+;; (add-hook 'org-mode-hook #'valign-mode)
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "/Users/fangliming/.emacs.d/lisp/")
 (load-file "~/.emacs.d/custom.el")
+(load-file "~/.emacs.d/perl.el")
+(load-file "~/.emacs.d/scheme.el")
+(load "~/.emacs.d/org.el")
 (exec-path-from-shell-initialize)
 
 (global-set-key (kbd "C-c C-;") 'open-init-el)
-(global-set-key (kbd "C-c o") 'open-main-org)
-(global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c t") 'ansi-term)
+
+(add-hook 'sh-mode-hook 'format-all-mode)
+(add-hook 'awk-mode-hook 'format-all-mode)
+(add-hook 'cperl-mode-hook 'format-all-mode)
+(use-package format-all
+  :ensure t
+  :bind (("C-c C-c C-f"  . format-all-buffer))
+  )
+
+(use-package exec-path-from-shell
+  :ensure t
+  :config
+  (exec-path-from-shell-initialize)
+  )
 
 (use-package hackernews
   :ensure t
@@ -116,17 +115,17 @@
   :hook
   ((c-mode . lsp-deferred)
    (c++-mode . lsp-deferred)
-   (before-save . lsp-format-buffer)
+   (rust-mode . lsp-deferred)
    ))
 
-(use-package projectile
-  :ensure t
-  :config
-  (projectile-mode +1)
-  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
-  :custom
-  (projectile-completion-system 'ivy)
-  )
+;; (use-package projectile
+;;   :ensure t
+;;   :config
+;;   (projectile-mode +1)
+;;   (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+;;   :custom
+;;   (projectile-completion-system 'ivy)
+;;   )
 
 (use-package flycheck
   :ensure t
@@ -168,9 +167,7 @@
   (ivy-height 15)
   )
 
-;; action when start up
-(org-agenda-list)
-(delete-other-windows)
+(use-package toml-mode :ensure)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

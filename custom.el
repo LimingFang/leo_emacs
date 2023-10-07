@@ -1,6 +1,3 @@
-;; (setq org-log-done 'note)
-(setq org-agenda-files '("~/Dropbox/org/" "~/Dropbox/org/storage/"  "~/Dropbox/org/cppcon/" "~/Dropbox/org/rcore/" "~/Dropbox/org/cpp" "~/Dropbox/org/db" "~/Dropbox/org/emacs" "~/Dropbox/org/rust"))
-
 ;; org-mode 界面快捷键
 (global-set-key (kbd "C-c a") (lambda () (interactive) (org-agenda) (delete-other-windows)))
 
