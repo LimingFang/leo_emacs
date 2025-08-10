@@ -1,0 +1,6 @@
+tree-sitter/
+projects
+lisp/
+eshell/
+elpa/
+auto-save-list/
